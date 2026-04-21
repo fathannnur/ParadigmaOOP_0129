@@ -7,7 +7,7 @@ public :
     string nama;
     float nilai;
 
-    void printData{}{
+    void printData(){
         cout << "NIM : " << nim << endl;
         cout << "Nama : " << nama << endl;
         cout << "Nilai : " << nilai << endl;
@@ -16,4 +16,9 @@ public :
 
 int main(){
     Mahasiswa mhs;//obect
+    mhs.nim = 2022;
+    mhs.nama = "Abra";
+    mhs.nilai = 90.5;
+
+    mhs.printData();
 }
